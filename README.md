@@ -9,9 +9,9 @@ A deep learning project aimed at classifying flower species from images using CN
 <img width="319" height="421" alt="image" src="https://github.com/user-attachments/assets/0079b58b-28ed-4145-87eb-86ed837f0736" />
 
 ## 📊 Evaluation
-Loss: Decreased steadily, indicating effective learning.
-Accuracy: Improved consistently, reaching ~75% on validation.
-Precision & Recall: Both increased, showing better class-wise prediction quality.
+- Loss: Decreased steadily, indicating effective learning.
+- Accuracy: Improved consistently, reaching ~75% on validation.
+- Precision & Recall: Both increased, showing better class-wise prediction quality.
 <img width="1062" height="613" alt="Screenshot 2025-09-24 035502" src="https://github.com/user-attachments/assets/1b298ac2-0977-4d59-8271-73175cbacb93" />
 
 ## 🛠️ How to Use
