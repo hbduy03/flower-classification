@@ -1,0 +1,7 @@
+venv/
+.git/
+__pycache__/
+flower_data/
+flowers/
+test/
+.DS_Store
