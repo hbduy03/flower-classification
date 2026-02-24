@@ -1,6 +1,6 @@
 import io
 import numpy as np
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 from PIL import Image
@@ -34,4 +34,4 @@ def predict():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
