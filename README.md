@@ -20,9 +20,7 @@ A deep learning project aimed at classifying 5 types of flowers from images usin
 <img width="1062" height="613" alt="Screenshot 2025-09-24 035502" src="https://github.com/user-attachments/assets/1b298ac2-0977-4d59-8271-73175cbacb93" />
 
 ## 🛠️ How to Use
-- With Docker:
-- docker run -p 5000:5000 hbduy03/flower-app:latest
-
+- With Docker: docker run -p 5000:5000 hbduy03/flower-app:latest
 - No Docker:
 1. Place the dataset into project's folder
 2. run the training script to create CNN model: py main.py
