@@ -5,3 +5,5 @@ flower_data/
 flowers/
 test/
 .DS_Store
+!/.postman/
+!/postman/

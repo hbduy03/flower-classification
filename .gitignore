@@ -3,3 +3,6 @@
 !/test/
 !/flowers/
 !/flower_data/
+.postman/
+postman/
+__pycache__/

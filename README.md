@@ -1,13 +1,9 @@
 # 🌸 Flower Classification
-A deep learning project aimed at classifying 5 types of flowers from images using CNN, RESTful APIs and Flask.
-
+A deep learning project aimed at classifying 5 types of flowers from images using CNN, RESTful APIs built by Flask secured by JWT authentication
 ## Tech Stack
-- Backend: Python, Flask
-- Machine Learning: TensorFlow, Keras, NumPy, Pillow
-- Deployment: Docker
-
-## Dataset
-- Source: https://www.kaggle.com/datasets/alxmamaev/flowers-recognition?resource=download
+- **Backend:** Python, Flask, Flask-JWT-Extended
+- **Deep Learning:** TensorFlow, Keras, NumPy, Pillow
+- **Deployment:** Docker
 
 ## Project Structure
 
@@ -22,16 +18,27 @@ A deep learning project aimed at classifying 5 types of flowers from images usin
 ## 🛠️ How to Use
 - With Docker: docker run -p 5000:5000 hbduy03/flower-app:latest
 - No Docker:
-1. Place the dataset into project's folder
-2. run the training script to create CNN model: py main.py
-3. Start the server: py app.py
-4. Test the API:
-- You can test the prediction by using Postman or curl.
-- The server will respond with a JSON object.
-
+1. Place the dataset [Flowers Recognition](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition?resource=download) into project's folder
+ 2. run the training script to create CNN model: py main.py
+ 3. Start the server: py app.py
+## Test the API: 
+You can test the prediction by using Postman (Recommended) or curl:
+1. Login to get Tokens
+- **Method:** `POST`
+- **URL:** http://localhost:5000/login
+- **Input**:
+  {
+      "username": "admin",
+      "password": "123456"
+  }
+2. Predict Flower Type
+- **Method:** `POST`
+- **URL:** http://localhost:5000/predict
+- **Authorization:** Your available **access token** after first step
+- **Input**: file (.jpg/.png)
+ 3. Refresh Expired Token
+- **Method:** `POST`
+- **URL:** http://localhost:5000/refresh
+- **Authorization:** Your available **refresh token** after first step
 ## Result:
-
-<img width="928" height="117" alt="image" src="https://github.com/user-attachments/assets/9f746e3e-4143-4725-9469-a9e4f470fb72" />
-
-<img width="872" height="102" alt="image" src="https://github.com/user-attachments/assets/47ff2d29-76ae-46ac-b138-49adf0ec966c" />
 
