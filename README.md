@@ -41,4 +41,12 @@ You can test the prediction by using Postman (Recommended) or curl:
 - **URL:** http://localhost:5000/refresh
 - **Authorization:** Your available **refresh token** after first step
 ## Result:
+**1. Login API:**
+<img width="999" height="203" alt="image" src="https://github.com/user-attachments/assets/2bbc906f-b140-4da7-aae2-ad14f9496773" />
+**2. Predict API:**
+
+<img width="331" height="140" alt="Screenshot 2026-06-19 190428" src="https://github.com/user-attachments/assets/021280ae-33b9-4960-8c5a-2ee5d954dce4" />
+<img width="315" height="136" alt="Screenshot 2026-06-19 190844" src="https://github.com/user-attachments/assets/45efa4a1-6cf6-4ffe-984f-856ea4b309f3" />
+<img width="328" height="138" alt="image" src="https://github.com/user-attachments/assets/bfae1ae4-e937-4e29-a7d6-dd72dc4bcf31" />
+
 
